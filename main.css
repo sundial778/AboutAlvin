@@ -86,13 +86,13 @@ h3{
    overflow: hidden;
  }
 #navBar{
-
+background-color:black;
  display:inline;
  width:33%;
  margin:0;
  padding:0;
  font-size:22px;
-
+color:white;
 
 
 
@@ -103,21 +103,18 @@ h3{
   padding-left:30px;
   text-decoration:none;
   border-spacing:50px;
+  color:white;
 
 }
 a:link {
- border:1.6px solid;
- border-radius:3px;
- border-style: solid;
- background-color:beige;
-
+ 
 }
 a:visited {
 
 }
 a:hover {
-  color: white;
-  background-color:red;    
+  color: rgba(0,0,0,0);
+      
 }
 #enter_mobile{
   display:none;
