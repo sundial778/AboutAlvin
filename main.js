@@ -54,7 +54,7 @@ $(document).ready(function() {
     function fadeIn(id) {
         if (desktopMode) {
             $('#contentChanger.inner').replaceWith($(id))
-
+            $('#contentChanger').css('background-color', 'rgba(0,0,0,.5');
             $('#projects').hide()
             $('#play').hide()
             $('#work').hide()
